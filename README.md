@@ -1,2 +1,2 @@
-# izuua.github.io
-My Portfolio
+# Responsive-Portfolio
+Portfolio with CSS responsive design.
