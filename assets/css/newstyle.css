@@ -11,6 +11,9 @@ section {
   line-height: 24px;
 }
 
+.card-title {
+  font-size: 20px
+}
 
 .collapsible {
     margin-top: 20px;
