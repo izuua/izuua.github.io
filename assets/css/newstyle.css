@@ -68,4 +68,10 @@ section {
 
   img {
     width: 400px;
+    display: block;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /* float: left; */
+    /* padding: 30px; */
   }
