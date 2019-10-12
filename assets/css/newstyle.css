@@ -65,3 +65,7 @@ section {
   .active:after {
     content: "\2796"; 
   }
+
+  img {
+    width: 400px;
+  }
