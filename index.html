@@ -2,49 +2,499 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Michael Beck</title>
-  <!-- Reset CSS -->
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Michael Beck</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Michael Beck</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item" style="color: #000000">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/izuua" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/michael-beck-8781a6107/"
+                        target="_blank">LinkedIn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://izuuaaf.myportfolio.com/" target="_blank">Graphic Design
+                        Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:izuuaaf@gmail.com">Email Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Michael Beck</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="https://github.com/izuua" target="_blank">Github</a>
-        <a href="https://www.linkedin.com/in/michael-beck-8781a6107/" target="_blank">LinkedIn</a>
-        <a href="https://izuuaaf.myportfolio.com/" target="_blank">Graphic Design Portfolio</a>
-        <!-- <a href="contact.html">Contact</a> -->
-      </nav>
-    </div>
-  </header>
 
-  <div id="main-container" class="container">
+    <!-- <div id="main-container" class="container"> -->
     <section class="main-section">
-      <h1>About Me</h1>
-
-      <!-- <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name"> -->
-
-
-      <p>Full Stack Developer with experience as a Graphic Designer with skills in JavaScript, HTML,CSS, React, Github, nodeJS, Express, MySQL, MongoDB, JQuery, Handlebars, AJAX, RESTful API, Bootstrap, WordPress, Photoshop and InDesign. Educated at Winthrop University with a Bachelor’s in Philosophy and a certificate in Full Stack Web Development from UNC Charlotte. Over 4 years of experience designing and maintaining professional company websites and databases. Innovative problem solver always ready to meet a problem head-on. Excels at learning and developing new skills swiftly and effectively. Motivated by learning new skills and making an impact.</p>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-sm'>
+                    <div class="card">
+                        <h5 class="card-header">About Me</h5>
+                        <div class="card-body">
+                            <ul>
+                                <li>Full Stack Developer with experience as a Graphic Designer with skills in
+                                    JavaScript, HTML, CSS, ReactJS, Git, Github, Node.js, Express.js, MySQL, MongoDB,
+                                    JQuery, Handlebars.js, API, AJAX, JSON, Media Queries, REST API, MVC Framework,
+                                    Bootstrap, Heroku, Firebase, Media Queries,WordPress, Photoshop, InDesign and
+                                    Illustrator.
+                                </li>
+                                <li>Educated at Winthrop University with a Bachelor’s in Philosophy and a certificate in
+                                    Full Stack Web Development from UNC Charlotte.
+                                </li>
+                                <li>Over 4 years of experience designing and maintaining professional company websites
+                                    and databases.
+                                </li>
+                                <li>Innovative problem solver always ready to meet a problem head-on.
+                                </li>
+                                <li>Excels at learning and developing new skills swiftly and effectively.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
 
     </section>
 
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; Michael Beck | contact: <a href='mailto:izuuaaf@gmail.com'>izuuaaf@gmail.com</a>
     </div>
-  </footer>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm'>
+                <button type="button" class="collapsible">Unknown Heroes Video Game | Full Stack Developer</button>
+                <div class="content">
+                    <!-- <a href="https://izuua.github.io/TriviaGame/">
+                        <img src="assets/images/abstract-q-c-640-480-8.jpg" alt="Unknown Heroes"></a> -->
+                    <p>A fantasy RPG game where users fight monsters using Unknown Heroes in turn-based combat.</p>
+                    <ul>
+                        <li>GitHub: <a href='https://github.com/izuua/unknown-heroes'
+                                target="_blank">https://github.com/izuua/unknown-heroes</a></li>
+                        <li>Demo: <a href='https://unknownheroes.herokuapp.com/'
+                                target="_blank">https://unknownheroes.herokuapp.com/</a></li>
+                        <li>Role: Core responsibilities entailed back-end game logic, sending data from the back-end to
+                            the front-end, database management, state management and battle animations.</li>
+                        <li> Utilized:
+                            <ul>
+                                <li>React.js</li>
+                                <li>JavaScript</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>Passport.js</li>
+                                <li>API</li>
+                                <li>AJAX</li>
+                                <li>MongoDB</li>
+                                <li>Heroku</li>
+                                <li>REST API</li>
+                                <li>MVC Framework</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm'>
+                <button type="button" class="collapsible">Event Hunter Web App | Front-End Developer</button>
+                <div class="content">
+                    <p>A user-friendly app designed to search for events using Ticketmaster API. After finding an event,
+                        users can purchase tickets.</p>
+                    <ul>
+                        <li>GitHub: <a href='https://github.com/izuua/Event-Hunter'
+                                target="_blank">https://github.com/izuua/Event-Hunter</a></li>
+                        <li>Demo: <a href='https://izuua.github.io/Event-Hunter/'
+                                target="_blank">https://izuua.github.io/Event-Hunter/</a></li>
+                        <li>Core responsibilities entailed JavaScript/jQuery logic and API calls.</li>
+                        <li> Utilized:
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>API</li>
+                                <li>AJAX</li>
+                                <li>Bootstrap</li>
+                                <li>Ticketmaster API</li>
+                                <li>Google Maps API</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm'>
+                <button type="button" class="collapsible">My Little Pony Giphy App | Sole
+                    Developer</button>
+                <div class="content">
+                    <p>A cute app that displays MLP gifs from the Giphy API.</p>
+                    <ul>
+                        <li>GitHub: <a href='https://github.com/izuua/giphy-app'
+                                target="_blank">https://github.com/izuua/giphy-app</a></li>
+                        <li>Demo: <a href='https://izuua.github.io/giphy-app/'
+                                target="_blank">https://izuua.github.io/giphy-app/</a></li>
+                        <li>Core responsibilities entailed creating a friendly app to grab My Little Pony gifs from the
+                            Giphy API.</li>
+                        <li> Utilized:
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>API</li>
+                                <li>AJAX</li>
+                                <li>Bootstrap</li>
+                                <li>Giphy API</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm'>
+                <button type="button" class="collapsible">My Little Pony Friend Finder App | Sole
+                    Developer</button>
+                <div class="content">
+                    <p>A cute web app that finds your best pony friend!</p>
+                    <ul>
+                        <li>GitHub: <a href='https://github.com/izuua/friend-finder'
+                                target="_blank">https://github.com/izuua/friend-finder</a></li>
+                        <li>Demo: <a href='https://powerful-everglades-79548.herokuapp.com/'
+                                target="_blank">https://powerful-everglades-79548.herokuapp.com/</a></li>
+                        <li>Core responsibilities entailed creating a friendly app that asks the user 10 questions and
+                            then matches them to the pony which closest matches their personality.</li>
+                        <li> Utilized:
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>API</li>
+                                <li>AJAX</li>
+                                <li>Bootstrap</li>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>Heroku</li>
+                                <li>REST API</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm'>
+                <button type="button" class="collapsible">Pokemon Hangman Game | Sole Developer</button>
+                <div class="content">
+                    <p>A Pokemon guessing game with the first 151 pokemon.</p>
+                    <ul>
+                        <li>GitHub: <a href='https://github.com/izuua/Word-Guess-Game'
+                                target="_blank">https://github.com/izuua/Word-Guess-Game</a></li>
+                        <li>Demo: <a href='https://izuua.github.io/Word-Guess-Game/'
+                                target="_blank">https://izuua.github.io/Word-Guess-Game/</a></li>
+                        <li>Core responsibilities entailed creating a game where players type a letter and then the game
+                            checks this letter against the current Pokemon.</li>
+                        <li> Utilized:
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm'>
+                <button type="button" class="collapsible">Rewards Bonus App | Sole Developer</button>
+                <div class="content">
+                    <p>An app that keeps track of rewards for customers based on the amount of money spent on a
+                        transaction.</p>
+                    <ul>
+                        <li>GitHub: <a href='https://github.com/izuua/rewards-solution'
+                                target="_blank">https://github.com/izuua/rewards-solution</a></li>
+                        <li>Demo: <a href='https://izuua.github.io/rewards-solution/'
+                                target="_blank">https://izuua.github.io/rewards-solution/</a></li>
+                        <li>Core responsibilities entailed reading a JSON file and calculating reward points based on
+                            transactional amounts.</li>
+                        <li> Utilized:
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JSON</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm'>
+                <button type="button" class="collapsible">Marvel Comics Trivia Game | Sole Developer</button>
+                <div class="content">
+                    <p>A trivia game where the user selects the correct answer from a list of possible answers and then
+                        the app shows the results of the quiz.</p>
+                    <ul>
+                        <li>GitHub: <a href='https://github.com/izuua/TriviaGame'
+                                target="_blank">https://github.com/izuua/TriviaGame</a></li>
+                        <li>Demo: <a href='https://izuua.github.io/TriviaGame/'
+                                target="_blank">https://izuua.github.io/TriviaGame/</a></li>
+                        <li>Core responsibilities entailed creating a time based quiz where you have 10 seconds to
+                            choose a correct answer.</li>
+                        <li> Utilized:
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm'>
+                <button type="button" class="collapsible">Gem Collector Game | Sole Developer</button>
+                <div class="content">
+                    <p>A gem collecting game where you have to collect a certain amount of points.</p>
+                    <ul>
+                        <li>GitHub: <a href='https://github.com/izuua/Unit-4-Game'
+                                target="_blank">https://github.com/izuua/Unit-4-Game</a></li>
+                        <li>Demo: <a href='https://izuua.github.io/Unit-4-Game/'
+                                target="_blank">https://izuua.github.io/Unit-4-Game/</a></li>
+                        <li>Core responsibilities entailed creating a game that kept track of the user's score and
+                            matched it against the target score.</li>
+                        <li> Utilized:
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm'>
+                <button type="button" class="collapsible">Train Scheduler App | Sole Developer</button>
+                <div class="content">
+                    <p>An app that displays train schedules.</p>
+                    <ul>
+                        <li>GitHub: <a href='https://github.com/izuua/Train-Scheduler'
+                                target="_blank">https://github.com/izuua/Train-Scheduler</a></li>
+                        <li>Demo: <a href='https://izuua.github.io/Train-Scheduler/'
+                                target="_blank">https://izuua.github.io/Train-Scheduler/</a></li>
+                        <li>Core responsibilities entailed creating an app that displays a train schedule and allows
+                            users to add trains to the database.</li>
+                        <li> Utilized:
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>Firebase</li>
+                                <li>Moment.js</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm'>
+                <button type="button" class="collapsible">LIRI Bot CLI App | Sole Developer</button>
+                <div class="content">
+                    <p>A CLI app to search Spotify for songs, Bands in Town for concerts and OMDB for movies.</p>
+                    <ul>
+                        <li>GitHub: <a href='https://github.com/izuua/LIRI-bot'
+                                target="_blank">https://github.com/izuua/LIRI-bot</a></li>
+                        <li>Core responsibilities entailed creating a back-end CLI app that allows users to input a
+                            song, band or movie and then search the correct API and give back information.</li>
+                        <li> Utilized:
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>Node.js</li>
+                                <li>API</li>
+                                <li>Axios</li>
+                                <li>Spotify API</li>
+                                <li>Bands in Town API</li>
+                                <li>OMDB Api</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm'>
+                <button type="button" class="collapsible">Bamazon CLI App | Sole Developer</button>
+                <div class="content">
+                    <p>An Amazon-like storefront CLI app.</p>
+                    <ul>
+                        <li>GitHub: <a href='https://github.com/izuua/bamazon'
+                                target="_blank">https://github.com/izuua/bamazon</a></li>
+                        <li>Core responsibilities entailed creating a back-end CLI app that takes in orders from
+                            customers and depletes stock from the database.</li>
+                        <li> Utilized:
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>Node.js</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm'>
+                <button type="button" class="collapsible">Wrestling News Scraper App | Sole Developer</button>
+                <div class="content">
+                    <p>A scraper app designed to scrape wrestling news stories from <a href='https://lordsofpain.net'
+                            target="_blank">Lords of Pain.</a></p>
+                    <ul>
+                        <li>GitHub: <a href='https://github.com/izuua/Wrestling-News-Scraper'
+                                target="_blank">https://github.com/izuua/Wrestling-News-Scraper</a></li>
+                        <li>Demo: <a href='https://fathomless-cove-27866.herokuapp.com/'
+                                target="_blank">https://fathomless-cove-27866.herokuapp.com/</a></li>
+                        <li>Core responsibilities entailed creating a app that scraped news stories and stores them in a
+                            Mongo database.</li>
+                        <li> Utilized:
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>API</li>
+                                <li>Axios</li>
+                                <li>Bootstrap</li>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>MongoDB</li>
+                                <li>Mongoose</li>
+                                <li>MVC Framework</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm'>
+                <button type="button" class="collapsible">Healthcare CRM App | Front-End Developer</button>
+                <div class="content">
+                    <p>A CRM app for use by a doctor's office.</p>
+                    <ul>
+                        <li>GitHub: <a href='https://github.com/izuua/project_2'
+                                target="_blank">https://github.com/izuua/project_2</a></li>
+                        <li>Demo: <a href='https://arcane-anchorage-76654.herokuapp.com/'
+                                target="_blank">https://arcane-anchorage-76654.herokuapp.com/</a></li>
+                        <li>Core responsibilities entailed front-end JavaScript and API calls.</li>
+                        <li> Utilized:
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>API</li>
+                                <li>AJAX</li>
+                                <li>Bootstrap</li>
+                                <li>Handlebars.js</li>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>MySQL</li>
+                                <li>Sequelize</li>
+                                <li>Heroku</li>
+                                <li>REST API</li>
+                                <li>MVC Framework</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class='row'>
+                <div class='col-sm'>
+                    Copyright &copy; Michael Beck | Contact: <a href='mailto:izuuaaf@gmail.com'>izuuaaf@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="./assets/javascript/logic.js"></script>
+
 
 </body>
-
-</html>
